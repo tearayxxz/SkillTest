@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.direct-btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.block{
+    display: flex;
+}
+
+.direct-btn{
+    margin: auto 15px;
+}
