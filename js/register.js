@@ -31,7 +31,7 @@ form.addEventListener("submit",(e)=>{
             phonenumber:form.PhoneNumber.value,
         })
         alert("สร้างบัญชีผู้ใช้เรียบร้อย")
-        window.location.href = 'login.html'
+        window.location.href = 'Login.html'
     }).catch((error)=>{
         alert(error.message)
     })
